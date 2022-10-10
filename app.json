@@ -42,7 +42,7 @@
          "required": true,
          "value": "c1b434defccacad6063758c9a7d76d5d"
       },    
-      "SQLALCHEMY_DATABASE_URI": {
+      "DATABASE_URL": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
