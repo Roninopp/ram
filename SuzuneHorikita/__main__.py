@@ -96,23 +96,23 @@ PM_START_TEXT = """
 
 ✦ ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ᴀʟʟ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴜᴘᴅᴀᴛᴇꜱ. ✦
 
-\n★━━━━━━━━━━━━━━━━━━━━★[.](https://telegra.ph/file/c51ffc70040584594f4bc.jpg)
+\n★━━━━━━━━━━━━━━━━━━━━★[.](https://te.legra.ph/file/31b317b791d696976ab19.mp4)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="----「ᴀᴅᴅ ᴍᴇ」----", url="https://t.me/Shoto_xxrobot?startgroup=true"),
+            text="----「ᴀᴅᴅ ᴍᴇ」----", url="https://t.me/YaeMikoXProbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="「ꜱᴜᴘᴘᴏʀᴛ」", url="https://t.me/IgniteTechDivision"),
+        InlineKeyboardButton(text="「ꜱᴜᴘᴘᴏʀᴛ」", url="https://t.me/BotsXSupport"),
         InlineKeyboardButton(
-            text="「ᴜᴘᴅᴀᴛᴇꜱ」", url="https://t.me/IgniteTechUpdates"),
+            text="「ᴜᴘᴅᴀᴛᴇꜱ」", url="https://t.me/BotsXUpdate"),
         InlineKeyboardButton(
-            text="「ʟᴏɢꜱ」", url="https://t.me/shoto_logs"),
+            text="「FRIEND」", url="https://t.me/FANTAsTICFIGHTERBOT"),
     ],
     [
-        InlineKeyboardButton(text="「ɴᴇᴛᴡᴏʀᴋ」", url="https://t.me/ignite_Xnetwork"),
+        InlineKeyboardButton(text="「LOGS」", url="https://t.me/op_botfan"),
     ],
 ]
 
@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
 
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="SUPPORT", url="t.me/Shoto_xxsupport ")]]
+                [[InlineKeyboardButton(text="SUPPORT", url="https://t.me/BotsXSupport ")]]
             ),
         )
         
@@ -511,12 +511,12 @@ def SuzuneHorikitarobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/shoto_logs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Shoto_xxsupport "),
+                    InlineKeyboardButton(text="imperial", url="t.me/imperial_arena"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="https://t.me/BotsXSupport "),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/shoto_xxsupport "),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/shoto_xxupdates "),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/BotsXSupport "),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/BotsXUpdate "),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_basichelp"),
@@ -534,12 +534,12 @@ def SuzuneHorikitarobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Abhinav", url="t.me/Redeye_Ghoul"),
-                    InlineKeyboardButton(text="RiZoel", url="t.me/TheRiZoeL"),
+                    InlineKeyboardButton(text="RONIN", url="t.me/DUSHMANXRONIN"),
+                    InlineKeyboardButton(text="haruki", url="t.me/Haruki_Shiga_16"),
                  ],
                  [
-                    InlineKeyboardButton(text="Kawaki", url="t.me/SimpleAsFuckAyanokojiOpp"),
-                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/Suzune_Support +"),
+                    InlineKeyboardButton(text="Kawaki", url="https://t.me/BotsXSupport"),
+                    InlineKeyboardButton(text="Dᴇ Cᴏᴅᴇ", url="https://t.me/BotsXSupport +"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="SuzuneHorikitarobot_basichelp"),
